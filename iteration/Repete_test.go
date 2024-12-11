@@ -23,4 +23,5 @@ func BenchmarkRepeat(b *testing.B) {
 func ExampleRepeat() {
 	repeat := Repeat("ram ", 5)
 	fmt.Println(repeat)
+	// Output: ram ram ram ram ram
 }
